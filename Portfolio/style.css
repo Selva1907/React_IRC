@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+}
+.image-container img {
+    display: flex;
+    margin-right: 10px; /* Optional spacing between images */
+}
+.image-container img:last-child {
+    margin-right: 0;
+}
+img{
+    height: 200px;
+    width: 260px;
+    padding-left: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #a1bcd7;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: #3498db;
+    border-radius: 5px;
+}
+
+.home {
+    background-color: #3498db;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 4em 0;
+    border-radius: 10px;
+}
+
+.skills {
+    background-color: #6ccaf9;
+    color: #223b41;
+    text-align: center;
+    padding: 4em 0;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.skill {
+    margin: 1em 0;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.skill span {
+    display: block;
+    background-color: #1abc9c;
+    color: #223c43;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 50%; /* Adjust the width based on your skill level */
+    border-radius: 10px;
+}
+
+.projects {
+    background-color: #5887d723;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 4em 0;
+    font-size: 22px;
+    width: 60%;
+}
+
+.project-card {
+    background-color: #3bb8e26c;
+    color: #395860;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    width: 60%;
+    
+}
+form: scale(1.05);
+div {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 80%; 
+}
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+margin: 0 auto; 
+}
+header, nav, .hero, .skills, .projects, .project-card, footer {
+margin: 0 auto;
+width:100%;
+}
+
+
+
+footer {
+border-radius: 10px;
+align-content: center;
+text-align: center;
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em 0;
+}
+.project-card:hover {
+
+    outline: none;
+}
